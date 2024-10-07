@@ -89,7 +89,7 @@ main h1 {
 }
 
 .contenedor > p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   justify-content: right;
   align-items: right;
   white-space: pre-line;
@@ -97,6 +97,8 @@ main h1 {
   width: 29%;
   min-width: 300px;
   text-shadow: 2px 2px 4px rgba(62, 93, 111, 0.893);
+  
+  
 }
 
 .contenedor > #galeria {
