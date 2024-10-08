@@ -400,7 +400,7 @@ h8 {
 
 
  
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 620px) {
   main {
     background-size: 45%;
   }
