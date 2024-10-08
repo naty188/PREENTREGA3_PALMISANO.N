@@ -324,9 +324,10 @@ h7 {
   .navbar {
     display: flex;
     justify-content: flex-end;
+    max-width: 90vh;
     width: 100vh;
     height: 47px;
-    margin-bottom: 70px;
+    margin-bottom:0;
    
     
   }
@@ -335,7 +336,7 @@ h7 {
     font-size: 90%;
     padding: 7px 7px;
     border: 2px solid beige;
-    margin: 3px 3px 0 5px;
+    margin: 40px 3px 0 5px;
   }
 
   .logo {
