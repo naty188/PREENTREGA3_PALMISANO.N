@@ -31,7 +31,7 @@ header {
   max-height: 120px;
   align-items: center;
   max-width: 100%;
-  min-width: 300px;
+  
 }
 
 .logo {
@@ -318,14 +318,14 @@ h3 {
     justify-content: flex-end;
     width: 80vh;
     height: 45px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
 
   .navbar a {
     font-size: 90%;
     padding: 7px 7px;
     border: 2px solid beige;
-    margin: 3px 3px;
+    margin: 3px 3px 0 5px;
   }
 
   .logo {

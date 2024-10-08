@@ -28,10 +28,8 @@ header {
   justify-content: space-between;
   padding-inline: 10px;
   max-height: 120px;
-  align-items: center;
   max-width: 100%;
-  min-width: 300px;
-  overflow-x: hidden;
+ 
 }
 
 .logo {
@@ -328,15 +326,16 @@ h7 {
     width: 100vh;
     height: 47px;
     margin-bottom: 0;
-    margin-left: 50px;
+    margin-top: 20px;
+    align-items: end;
+    
   }
 
   .navbar a {
     font-size: 90%;
     padding: 7px 7px;
     border: 2px solid beige;
-    margin: 5px 5px 0 10px;
-    
+    margin: 3px 3px 0 5px;
   }
 
   .logo {

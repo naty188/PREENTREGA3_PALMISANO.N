@@ -29,8 +29,7 @@ header {
   max-height: 120px;
   align-items: center;
   max-width: 100%;
-  min-width: 300px;
-  overflow-x: hidden;
+  
 }
 
 .logo {
@@ -59,6 +58,7 @@ header {
   margin: 5px 5px;
   transition: all 0.3s;
   animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+
 }
 
 .navbar a:hover {
@@ -281,7 +281,8 @@ h4 {
     justify-content: flex-end;
     width: 100vh;
     height: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+
     
   }
 
@@ -289,7 +290,7 @@ h4 {
     font-size: 90%;
     padding: 7px 7px;
     border: 2px solid beige;
-    margin: 3px 3px;
+    margin: 3px 3px 0 5px;
   }
   .boton__formulario {
     width: 200vw;
