@@ -46,6 +46,7 @@ header {
 .navbar {
   display: flex;
   margin-left: 20px;
+  padding-right: 10px;
   height: 60px;
 }
 
@@ -314,18 +315,17 @@ h3 {
 @media only screen and (max-width: 640px) {
   .navbar {
     display: flex;
-    width: 40vh;
+    justify-content: flex-end;
+    width: 80vh;
+    height: 45px;
     margin-bottom: 0;
-    height: 40px;
-    text-align: start;
   }
 
   .navbar a {
-    font-size: 70%;
-    padding: 2px 2px;
+    font-size: 90%;
+    padding: 7px 7px;
     border: 2px solid beige;
     margin: 3px 3px;
-    display: inline-block;
   }
 
   .logo {

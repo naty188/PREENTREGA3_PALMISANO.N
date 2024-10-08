@@ -44,16 +44,21 @@ header {
   display: flex;
   margin-left: 20px;
   padding-right: 10px;
+  padding-top: 30px;
+  height: 60px;
+  justify-content: center;
 }
 
 .navbar a {
   display: block;
   color: beige;
-  font-size: 85%;
+  font-size: 100%;
   text-decoration: none;
-  padding: 8px 8px;
+  padding: 10px 15px;
   border: 3px solid beige;
   margin: 5px 5px;
+  transition: all 0.3s;
+  animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
 .navbar a:hover {
@@ -398,6 +403,21 @@ h8 {
 @media only screen and (max-width: 640px) {
   main {
     background-size: 45%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100vh;
+    margin-bottom: 0;
+  }
+
+  .navbar a {
+    font-size: 90%;
+    padding: 7px 7px;
+    border: 2px solid beige;
+    margin: 3px 3px;
   }
 
   .contenedor__shows {
