@@ -72,7 +72,7 @@ main {
   background-repeat: no-repeat;
   background-size: 45%;
   background-position-x: 110%;
-  min-width: 360px;
+  min-width: 300px;
   max-width: 1500px;
   overflow-x: hidden;
   animation:kenburns-top 5s linear reverse both;
@@ -319,6 +319,7 @@ h7 {
 @media only screen and (max-width: 640px) {
   main {
     background-size: 35%;
+    
   }
   .navbar {
     display: flex;
@@ -350,7 +351,7 @@ h7 {
     max-width: 30%;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .container {
