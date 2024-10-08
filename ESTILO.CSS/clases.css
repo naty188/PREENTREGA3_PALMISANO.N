@@ -72,7 +72,7 @@ main {
   background-repeat: no-repeat;
   background-size: 45%;
   background-position-x: 110%;
-  min-width: 300px;
+  min-width: 360px;
   max-width: 1500px;
   overflow-x: hidden;
   animation:kenburns-top 5s linear reverse both;
