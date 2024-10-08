@@ -27,7 +27,6 @@ header {
   justify-content: space-between;
   padding-inline: 10px;
   max-height: 120px;
-  min-width: 300px;
 }
 
 .logo {
@@ -45,21 +44,16 @@ header {
   display: flex;
   margin-left: 20px;
   padding-right: 10px;
-  padding-top: 30px;
-  height: 60px;
-  justify-content: center;
 }
 
 .navbar a {
   display: block;
   color: beige;
-  font-size: 100%;
+  font-size: 90%;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 8px 8px;
   border: 3px solid beige;
   margin: 5px 5px;
-  transition: all 0.3s;
-  animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
 
 .navbar a:hover {
@@ -411,15 +405,14 @@ h8 {
     justify-content: flex-end;
     height: 100px;
     width: 100vh;
-    margin-bottom: 70px;
-    
+    margin-bottom: 0;
   }
 
   .navbar a {
     font-size: 90%;
     padding: 7px 7px;
     border: 2px solid beige;
-    margin: 3px 3px 0 5px;
+    margin: 3px 3px;
   }
 
   .contenedor__shows {
