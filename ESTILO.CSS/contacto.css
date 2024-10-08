@@ -282,7 +282,7 @@ h4 {
     width: 100vh;
     height: 45px;
     margin-bottom: 70px;
-
+    align-items: center;
     
   }
 
@@ -291,6 +291,7 @@ h4 {
     padding: 7px 7px;
     border: 2px solid beige;
     margin: 3px 3px 0 5px;
+    text-align: center;
   }
   .boton__formulario {
     width: 200vw;
