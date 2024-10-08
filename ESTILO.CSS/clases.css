@@ -318,24 +318,25 @@ h7 {
  @keyframes kenburns-top{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}}
 
  
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 640px) {
   main {
     background-size: 35%;
   }
-
   .navbar {
     display: flex;
     justify-content: flex-end;
-    width: 80vh;
+    width: 100vh;
     height: 47px;
     margin-bottom: 0;
+    margin-left: 50px;
   }
 
   .navbar a {
     font-size: 90%;
-    padding: 9px 9px;
+    padding: 7px 7px;
     border: 2px solid beige;
-    margin: 3px 3px;
+    margin: 5px 5px 0 10px;
+    
   }
 
   .logo {
