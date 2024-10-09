@@ -43,9 +43,9 @@ header {
 
 .navbar {
   display: flex;
-  margin-left: 20px;
   padding-right: 10px;
   height: 60px;
+  margin-top: 30px;
 }
 
 .navbar a {
@@ -281,16 +281,16 @@ h4 {
     justify-content: flex-end;
     width: 100vh;
     height: 45px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     align-items: center;
     
   }
 
   .navbar a {
     font-size: 90%;
-    padding: 7px 7px;
+    padding: 6px 6px;
     border: 2px solid beige;
-    margin: 1px 3px 0 5px;
+    margin: 1px 3px 3px 3px;
     text-align: center;
   }
   .boton__formulario {
