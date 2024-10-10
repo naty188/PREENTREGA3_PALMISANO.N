@@ -45,7 +45,7 @@ header {
 
 .navbar a {
   display: block;
-  color: beige;
+  color: #f5f5dc;
   font-size: 100%;
   text-decoration: none;
   padding: 10px 15px;
@@ -96,7 +96,7 @@ main h1 {
   margin-left: 1%;
   width: 29%;
   min-width: 300px;
-  text-shadow: 2px 2px 4px rgba(62, 93, 111, 0.893);
+  text-shadow: 2px 2px 4px #3e5d6fe4;
   
   
 }
@@ -115,7 +115,7 @@ main h1 {
 
 h2 {
   color: beige;
-  background-color: rgba(0, 0, 0, 0.712);
+  background-color: #000000b6;
   font-size: 22px;
 }
 
@@ -133,6 +133,56 @@ h2 {
   min-height: 66px;
   max-height: 400px;
   height: calc(45cqw);
+}
+
+
+footer {
+  background-color: #0c4f5fb4;
+  color: #0b0b0b;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 10px;
+  top: 0;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(12, 12, 12);
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 8px 5px;
+  background-color: rgb(235, 235, 232);
+  padding-block-end: 0;
+}
+.btn:hover {
+  background-color: #0c4f5fb4;
+}
+
+.btn img {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.btn span {
+  display: inline-block;
 }
 
 .whatsapp-button {
@@ -172,47 +222,6 @@ h2 {
   background-color: darkgreen;
 }
 
-footer {
-  background-color: #0c4f5fb4;
-  color: rgb(11, 11, 11);
-  text-align: center;
-  margin-bottom: 0px;
-  padding: 10px;
-  top: 0;
-}
-
-h3 {
-  font-size: 15px;
-}
-
-.btn {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  color: rgb(12, 12, 12);
-  border: none;
-  border-radius: 10px;
-  font-size: 22px;
-  text-decoration: none;
-  margin: 8px 5px;
-  background-color: rgb(235, 235, 232);
-  padding-block-end: 0;
-}
-.btn:hover {
-  background-color: #0c4f5fb4;
-}
-
-.btn img {
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-  margin-bottom: 10px;
-}
-
-.btn span {
-  display: inline-block;
-}
-
 .contenedor-redes-sociales {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -234,6 +243,8 @@ h3 {
 @keyframes puff-in-center{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
 
 
+
+
 .bounce-in-top{animation:bounce-in-top 1.8s both}
 
  @keyframes bounce-in-top{0%{transform:translateY(-500px);animation-timing-function:ease-in;opacity:0}38%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}55%{transform:translateY(-65px);animation-timing-function:ease-in}72%{transform:translateY(0);animation-timing-function:ease-out}81%{transform:translateY(-28px);animation-timing-function:ease-in}90%{transform:translateY(0);animation-timing-function:ease-out}95%{transform:translateY(-8px);animation-timing-function:ease-in}100%{transform:translateY(0);animation-timing-function:ease-out}}
@@ -243,6 +254,8 @@ h3 {
 
 
  @keyframes bounce-in-top{0%{transform:translateY(-500px);animation-timing-function:ease-in;opacity:0}38%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}55%{transform:translateY(-65px);animation-timing-function:ease-in}72%{transform:translateY(0);animation-timing-function:ease-out}81%{transform:translateY(-28px);animation-timing-function:ease-in}90%{transform:translateY(0);animation-timing-function:ease-out}95%{transform:translateY(-8px);animation-timing-function:ease-in}100%{transform:translateY(0);animation-timing-function:ease-out}}
+
+ 
 
  @keyframes kenburns-top{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}}
 

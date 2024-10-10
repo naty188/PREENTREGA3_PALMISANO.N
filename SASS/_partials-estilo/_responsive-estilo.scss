@@ -1,0 +1,90 @@
+@media only screen and (max-width: 620px) {
+    .logo {
+     margin: 10px 0;
+     display: grid;
+     align-items: flex-start;
+     height: 90px;
+     width: 90px;
+    }
+
+
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      height: 100px;
+      width: 100vh;
+      margin-bottom: 0;
+    
+  
+      a {
+      font-size: 90%;
+      padding: 7px 7px;
+      border-color: 2px solid $colorsecundario;
+      margin: 3px 3px;
+      }
+
+    }
+  
+  
+
+    main {
+        background-size: 95px;
+        background-position: top right;
+      
+      
+  
+      .contenedor {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      
+  
+        p {
+         width: 100%;
+         font-size: 18px;
+         margin-left: 20px;
+         text-shadow: 2px 2px 4px $colorterciario;
+         }
+  
+        #galeria {
+         width: 100%;
+
+
+         .carousel-caption h5 {
+            font-size: 10px;
+            padding: 5px;
+          }
+
+        }
+
+      } 
+  
+
+    }
+
+
+  
+    .whatsapp-button {
+      bottom: 10px;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      padding: 5px 10px;
+
+      & img {
+        width: 15px;
+        height: 15px;
+      }
+
+    }
+   
+  
+      .icono-red-social {
+      width: 30px;
+      height: 30px;
+      }
+  
+
+
+}
+  

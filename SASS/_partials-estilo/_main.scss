@@ -1,0 +1,91 @@
+
+main {
+    background-image: url("../IMG/fm-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: top right;
+    @include animacion3();
+
+   h1 {
+        color: #040404d8;
+        text-align: left;
+        justify-content: right;
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-left: 20px;
+      }
+
+      
+    .contenedor {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: left;
+        justify-items: center;
+        object-position: center;
+        object-fit: contain;
+
+         p {
+            font-size: 1.1em;
+            justify-content: right;
+            align-items: right;
+            white-space: pre-line;
+            margin-left: 1%;
+            width: 29%;
+            min-width: 300px;
+            text-shadow: 2px 2px 4px $colorterciario;
+              
+          }
+          
+         #galeria {
+            width: 70%;
+        
+
+            #carouselExampleDark > .carousel-inner > .carousel-item > img {
+                object-fit: scale-down;
+                object-position: 50% 50%;
+                width: 100%;
+                /*max-width: 0px;*/
+                max-height: min(500px, 50cqw);
+
+                h2 {
+                    color:$colorsecundario;
+                    background-color: #000000b6;
+                    font-size: 22px;
+                  }
+
+              }
+              
+        }
+      }
+
+
+    .video {
+        text-align: center;
+        background-color: beige;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+        iframe {
+            width: 90%;
+            min-width: 200px;
+            max-width: 800px;
+            min-height: 66px;
+            max-height: 400px;
+            height: calc(45cqw);
+          }
+      }
+     
+
+  }
+
+  @mixin animacion3(){
+    animation:kenburns-top 5s linear reverse both;
+  }
+
+  @keyframes kenburns-top {
+    0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}
+  }
