@@ -1,3 +1,38 @@
+@mixin animacion1{
+  animation:bounce-in-top 1.8s both;
+  animation-delay:1.6s ;
+ }
+
+ @keyframes bounce-in-top {
+   0%{transform:translateY(-500px);opacity:0;
+   }
+   38%{transform:translateY(0); opacity:1;
+   }
+   55%{transform:translateY(-65px);
+   }
+   72%{transform:translateY(0);
+   }
+   81%{transform:translateY(-28px);
+   }
+   90%{transform:translateY(0);
+   }
+   95%{transform:translateY(-8px);
+   }
+   100%{transform:translateY(0);
+   }   
+ }
+
+
+ @mixin animacion2{
+  animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+ }
+
+ @keyframes puff-in-center {
+  0%{transform:scale(2);filter:blur(4px);opacity:0}
+  100%{transform:scale(1);filter:blur(0);opacity:1}
+ }
+
+
 header {
     background-color:$colorprincipal;
     display: flex;
@@ -13,7 +48,7 @@ header {
         margin-top: 10px;
         padding-block-end: 10px;
         margin-left: 10px;
-        /*@include animacion1();*/
+        @include animacion1();
       }
 
       .navbar {
@@ -30,7 +65,7 @@ header {
             border-color: 3px solid $colorsecundario;
             margin: 5px 5px;
             transition: all 0.3s;
-            /*@include animacion2();*/
+            @include animacion2();
 
             &:hover {
                 background-color: #0c4f5fb4;
@@ -42,39 +77,7 @@ header {
 
   }
 
-  /*@mixin animacion1(){
-    animation:bounce-in-top 1.8s both;
-    animation-delay:1.6s ;
-   }
  
-   @keyframes bounce-in-top {
-     0%{transform:translateY(-500px);opacity:0;
-     }
-     38%{transform:translateY(0); opacity:1;
-     }
-     55%{transform:translateY(-65px);
-     }
-     72%{transform:translateY(0);
-     }
-     81%{transform:translateY(-28px);
-     }
-     90%{transform:translateY(0);
-     }
-     95%{transform:translateY(-8px);
-     }
-     100%{transform:translateY(0);
-     }   
-   }*/
-
-
-   /*@mixin animacion2(){
-    animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-   }
-
-   @keyframes puff-in-center {
-    0%{transform:scale(2);filter:blur(4px);opacity:0}
-    100%{transform:scale(1);filter:blur(0);opacity:1}
-   }*/
 
 
    
