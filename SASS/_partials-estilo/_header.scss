@@ -62,7 +62,7 @@ header {
             font-size: 100%;
             text-decoration: none;
             padding: 10px 15px;
-            border-color: 3px solid $colorsecundario;
+            border: 3px solid $colorsecundario;
             margin: 5px 5px;
             transition: all 0.3s;
             @include animacion2();
