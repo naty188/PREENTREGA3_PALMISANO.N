@@ -124,9 +124,9 @@ main .contenedor {
   justify-content: left;
   justify-items: center;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 main .contenedor p {
   font-size: 1.1em;
@@ -141,16 +141,22 @@ main .contenedor p {
 main .contenedor #galeria {
   width: 70%;
 }
-main .contenedor #galeria #carouselExampleDark > .carousel-inner > .carousel-item > img {
+main
+  .contenedor
+  #galeria
+  #carouselExampleDark
+  > .carousel-inner
+  > .carousel-item
+  > img {
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-position: 50% 50%;
   width: 100%;
   /*max-width: 0px;*/
   max-height: min(500px, 50cqw);
 }
-main .contenedor #galeria #carouselExampleDark > .carousel-inner > .carousel-item > img h2 {
+main .contenedor #galeria h2 {
   color: #f5f5dc;
   background-color: rgba(0, 0, 0, 0.7137254902);
   font-size: 22px;
@@ -241,7 +247,7 @@ footer .whatsapp-button a img {
   height: 100%;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 footer .contenedor-redes-sociales {
   margin-top: 10px;
@@ -313,4 +319,4 @@ footer .contenedor-redes-sociales .icono-red-social:hover {
     width: 30px;
     height: 30px;
   }
-}/*# sourceMappingURL=estilo.css.map */
+} /*# sourceMappingURL=estilo.css.map */

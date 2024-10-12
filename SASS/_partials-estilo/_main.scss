@@ -58,14 +58,15 @@ main {
                 /*max-width: 0px;*/
                 max-height: min(500px, 50cqw);
 
-                h2 {
-                    color:$colorsecundario;
-                    background-color: #000000b6;
-                    font-size: 22px;
-                  }
-
-              } 
-        }
+          } 
+          
+          h2 {
+            color:$colorsecundario;
+            background-color: #000000b6;
+            font-size: 22px;
+            }
+        
+          }
       }
 
 
