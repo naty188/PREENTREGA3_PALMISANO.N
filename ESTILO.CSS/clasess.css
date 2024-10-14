@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:ital,wght@0,200;1,100;1,200&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*::-moz-selection {
+  color: rgba(12, 79, 95, 0.7058823529);
+}
+*::selection {
+  color: rgba(12, 79, 95, 0.7058823529);
+}
+
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+  }
+  72% {
+    transform: translateY(0);
+  }
+  81% {
+    transform: translateY(-28px);
+  }
+  90% {
+    transform: translateY(0);
+  }
+  95% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+header {
+  background-color: rgba(12, 79, 95, 0.7058823529);
+  display: flex;
+  gap: 20px;
+  grid-gap: 20px;
+  justify-content: space-between;
+  padding-inline: 10px;
+  max-height: 120px;
+  max-width: 100%;
+}
+header .logo {
+  width: 100px;
+  margin-top: 10px;
+  padding-block-end: 10px;
+  margin-left: 10px;
+  animation: bounce-in-top 1.8s both;
+  animation-delay: 1.6s;
+}
+header .navbar {
+  display: flex;
+  padding-right: 10px;
+  height: 60px;
+  margin-top: 30px;
+}
+header .navbar a {
+  display: block;
+  color: #f5f5dc;
+  font-size: 100%;
+  text-decoration: none;
+  padding: 8px 8px 8px;
+  border: 3px solid #f5f5dc;
+  margin: 5px 5px;
+  transition: all 0.3s;
+  animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+header .navbar a:hover {
+  background-color: rgba(12, 79, 95, 0.7058823529);
+}
+
+footer {
+  background-color: rgba(12, 79, 95, 0.7058823529);
+  color: #0b0b0b;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+footer .btn {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(12, 12, 12);
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 8px 5px;
+  background-color: rgb(235, 235, 232);
+  padding-block-end: 0;
+}
+footer .btn:hover {
+  background-color: rgba(12, 79, 95, 0.7058823529);
+}
+footer .btn img {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+footer .btn span {
+  display: inline-block;
+}
+footer .btn h5 {
+  font-size: 15px;
+}
+footer h6 {
+  font-size: 20px;
+}
+footer h7 {
+  font-size: 20px;
+}
+footer .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  color: beige;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  z-index: 9999;
+  background-image: url("../IMG/whatsapp-png-wazapp-logo-whats-whatsapp-logo-whatsapp-icon-2050-removebg-preview.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+footer .whatsapp-button a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+footer .whatsapp-button a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+footer .contenedor-redes-sociales {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer .contenedor-redes-sociales .icono-red-social {
+  width: 50px;
+  height: 50px;
+}
+footer .contenedor-redes-sociales .icono-red-social:hover {
+  background-color: #f5f5dc;
+}
+
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+main {
+  background-image: url("../IMG/fm-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position-x: 110%;
+  min-width: 400px;
+  max-width: 1500px;
+  overflow-x: hidden;
+  animation: kenburns-top 5s linear reverse both;
+}
+main h1 {
+  color: rgba(4, 4, 4, 0.8470588235);
+  text-align: left;
+  justify-content: right;
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+main h2 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  padding-top: 25px;
+  left: 50%;
+  margin-top: 80px;
+}
+main p {
+  font-size: 1.2em;
+  justify-content: right;
+  align-items: right;
+  white-space: pre-line;
+  margin-left: 3%;
+  padding-top: 70px;
+  width: 29%;
+  min-width: 300px;
+  text-shadow: 2px 2px 4px rgba(62, 93, 111, 0.893);
+  overflow-x: hidden;
+}
+main .video__muestra {
+  display: block;
+  width: 100%;
+  max-width: 50%;
+  margin-left: 150px;
+  left: 50%;
+  margin-top: 150px;
+  margin-bottom: 15px;
+}
+main .container {
+  display: block;
+  width: 100%;
+  background-color: beige;
+  margin-left: 15px;
+  padding-bottom: px;
+  padding-top: 5px;
+}
+main .container h3 {
+  font-size: 30px;
+  text-align: left;
+  text-decoration: underline;
+  display: block;
+  color: #0a0a0a;
+  margin: 40px 10px 30px 50px;
+}
+main .container button.boton-Youtube {
+  background-image: url("../IMG/youtube_PNG102354-removebg-preview.png");
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  width: 90px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  text-align: right;
+  margin-left: 50%;
+  margin-bottom: 15%;
+}
+main .container button.boton-Youtube:hover {
+  background-color: rgba(173, 119, 119, 0.723);
+  border-radius: 13px;
+}
+main article {
+  max-width: 90%;
+  overflow-x: hidden;
+  justify-content: center;
+  text-align: center;
+}
+main article h4 {
+  font-size: 45px;
+  text-align: center;
+  display: block;
+  color: #0a0a0a;
+  margin-bottom: 50px;
+  margin-right: 30px;
+}
+main article img {
+  display: inline-block;
+  width: 100%;
+  max-width: 80%;
+  height: auto;
+  margin: 10px;
+  padding: 0px;
+  -o-object-position: center;
+     object-position: center;
+  background-size: cover;
+}
+main article iframe {
+  display: inline-block;
+  max-width: 70%;
+  width: 100%;
+  margin: 10px;
+  gap: 5px;
+  background-size: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100vh;
+    width: 100vh;
+    height: 47px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+  }
+  .navbar a {
+    font-size: 90%;
+    padding: 3px 3px;
+    border: 2px solid beige;
+    margin: 3px 3px;
+  }
+  .logo {
+    margin: 10px 0;
+    display: grid;
+    align-items: flex-start;
+    height: 90px;
+    width: 90px;
+  }
+  main {
+    background-size: 35%;
+  }
+  main h3 {
+    font-size: 25px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  main .video__muestra {
+    display: flex;
+    max-width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  main .container {
+    background-color: white;
+    text-align: center;
+    margin-right: 20px;
+  }
+  main .boton-Youtube {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (min-width: 641px) and (max-width: 1200px) {
+  h2 {
+    margin-right: 40px;
+    font-size: 25px;
+  }
+  .container {
+    width: 95%;
+  }
+}/*# sourceMappingURL=clasess.css.map */
