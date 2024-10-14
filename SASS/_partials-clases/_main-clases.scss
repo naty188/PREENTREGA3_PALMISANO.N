@@ -1,0 +1,141 @@
+@mixin animacion3 {
+  animation: kenburns-top 5s linear reverse both;
+}
+
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+
+main {
+  background-image: url("../IMG/fm-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position-x: 110%;
+  min-width: 400px;
+  max-width: 1500px;
+  overflow-x: hidden;
+  animation: kenburns-top 5s linear reverse both;
+
+  h1 {
+    color: #040404d8;
+    text-align: left;
+    justify-content: right;
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    padding-top: 25px;
+    left: 50%;
+    margin-top: 80px;
+  }
+
+  p {
+    font-size: 1.2em;
+    justify-content: right;
+    align-items: right;
+    white-space: pre-line;
+    margin-left: 3%;
+    padding-top: 70px;
+    width: 29%;
+    min-width: 300px;
+    text-shadow: 2px 2px 4px rgba(62, 93, 111, 0.893);
+    overflow-x: hidden;
+  }
+
+  .video__muestra {
+    display: block;
+    width: 100%;
+    max-width: 50%;
+    margin-left: 150px;
+    left: 50%;
+    margin-top: 150px;
+    margin-bottom: 15px;
+  }
+
+  .container {
+    display: block;
+    width: 100%;
+    background-color: beige;
+    margin-left: 15px;
+    padding-bottom: px;
+    padding-top: 5px;
+
+    h3 {
+      font-size: 30px;
+      text-align: left;
+      text-decoration: underline;
+      display: block;
+      color: #0a0a0a;
+      margin: 40px 10px 30px 50px;
+    }
+
+    button.boton-Youtube {
+      background-image: url("../IMG/youtube_PNG102354-removebg-preview.png");
+      text-decoration: none;
+      background-color: transparent;
+      border: none;
+      width: 90px;
+      height: 70px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+      text-align: right;
+      margin-left: 50%;
+      margin-bottom: 15%;
+
+      &:hover {
+        background-color: rgba(173, 119, 119, 0.723);
+        border-radius: 13px;
+      }
+    }
+  }
+
+  article {
+    max-width: 90%;
+    overflow-x: hidden;
+    justify-content: center;
+    text-align: center;
+
+    h4 {
+      font-size: 45px;
+      text-align: center;
+      display: block;
+      color: #0a0a0a;
+      margin-bottom: 50px;
+      margin-right: 30px;
+    }
+
+    img {
+      display: inline-block;
+      width: 100%;
+      max-width: 80%;
+      height: auto;
+      margin: 10px;
+      padding: 0px;
+      object-position: center;
+      background-size: cover;
+    }
+    iframe {
+      display: inline-block;
+      max-width: 70%;
+      width: 100%;
+      margin: 10px;
+      gap: 5px;
+      background-size: cover;
+      object-position: center;
+    }
+  }
+}

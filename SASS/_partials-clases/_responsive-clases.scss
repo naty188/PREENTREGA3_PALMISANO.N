@@ -1,0 +1,67 @@
+@media only screen and (max-width: 640px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100vh;
+    width: 100vh;
+    height: 47px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+
+    a {
+      font-size: 90%;
+      padding: 3px 3px;
+      border: 2px solid beige;
+      margin: 3px 3px;
+    }
+  }
+
+  .logo {
+    margin: 10px 0;
+    display: grid;
+    align-items: flex-start;
+    height: 90px;
+    width: 90px;
+  }
+
+  main {
+    background-size: 35%;
+
+    h3 {
+      font-size: 25px;
+      margin-left: 5px;
+      text-align: center;
+    }
+
+    .video__muestra {
+      display: flex;
+      max-width: 30%;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+
+    .container {
+      background-color: white;
+      text-align: center;
+      margin-right: 20px;
+    }
+
+    .boton-Youtube {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
+  h2 {
+    margin-right: 40px;
+    font-size: 25px;
+  }
+
+  .container {
+    width: 95%;
+  }
+}
