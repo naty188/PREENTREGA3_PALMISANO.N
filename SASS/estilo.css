@@ -266,15 +266,15 @@ footer .contenedor-redes-sociales .icono-red-social:hover {
   .navbar {
     display: flex;
     justify-content: flex-end;
-    height: 100px;
+    height: 50px;
     width: 100vh;
     margin-bottom: 0;
   }
   .navbar a {
-    font-size: 90%;
-    padding: 7px 7px;
+    font-size: 30%;
+    padding: 2px 2px;
     border-color: 2px solid #f5f5dc;
-    margin: 3px 3px;
+    margin: 1px px;
   }
   main {
     background-size: 95px;

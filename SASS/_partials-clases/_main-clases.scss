@@ -13,7 +13,12 @@
   }
 }
 
-main {
+body{
+    max-width: 1600px;
+    margin: auto;
+    overflow-x: hidden;
+
+ main {
   background-image: url("../IMG/fm-removebg-preview.png");
   background-repeat: no-repeat;
   background-size: 45%;
@@ -138,4 +143,6 @@ main {
       object-position: center;
     }
   }
+ }
+
 }

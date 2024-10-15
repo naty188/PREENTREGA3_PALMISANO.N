@@ -54,7 +54,12 @@
     opacity: 1;
   }
 }
-header {
+body {
+  max-width: 1600px;
+  margin: auto;
+  overflow-x: hidden;
+}
+body header {
   background-color: rgba(12, 79, 95, 0.7058823529);
   display: flex;
   gap: 20px;
@@ -64,7 +69,7 @@ header {
   max-height: 120px;
   max-width: 100%;
 }
-header .logo {
+body header .logo {
   width: 100px;
   margin-top: 10px;
   padding-block-end: 10px;
@@ -72,24 +77,22 @@ header .logo {
   animation: bounce-in-top 1.8s both;
   animation-delay: 1.6s;
 }
-header .navbar {
+body header .navbar {
   display: flex;
   padding-right: 10px;
   height: 60px;
   margin-top: 30px;
 }
-header .navbar a {
+body header .navbar a {
   display: block;
   color: #f5f5dc;
-  font-size: 100%;
+  font-size: 95%;
   text-decoration: none;
-  padding: 8px 8px 8px;
   border: 3px solid #f5f5dc;
-  margin: 5px 5px;
   transition: all 0.3s;
   animation: puff-in-center 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
-header .navbar a:hover {
+body header .navbar a:hover {
   background-color: rgba(12, 79, 95, 0.7058823529);
 }
 
@@ -187,7 +190,12 @@ footer .contenedor-redes-sociales .icono-red-social:hover {
     transform-origin: top;
   }
 }
-main {
+body {
+  max-width: 1600px;
+  margin: auto;
+  overflow-x: hidden;
+}
+body main {
   background-image: url("../IMG/fm-removebg-preview.png");
   background-repeat: no-repeat;
   background-size: 45%;
@@ -197,7 +205,7 @@ main {
   overflow-x: hidden;
   animation: kenburns-top 5s linear reverse both;
 }
-main h1 {
+body main h1 {
   color: rgba(4, 4, 4, 0.8470588235);
   text-align: left;
   justify-content: right;
@@ -206,7 +214,7 @@ main h1 {
   margin-top: 30px;
   padding-left: 20px;
 }
-main h2 {
+body main h2 {
   text-align: center;
   color: black;
   font-size: 35px;
@@ -214,7 +222,7 @@ main h2 {
   left: 50%;
   margin-top: 80px;
 }
-main p {
+body main p {
   font-size: 1.2em;
   justify-content: right;
   align-items: right;
@@ -226,7 +234,7 @@ main p {
   text-shadow: 2px 2px 4px rgba(62, 93, 111, 0.893);
   overflow-x: hidden;
 }
-main .video__muestra {
+body main .video__muestra {
   display: block;
   width: 100%;
   max-width: 50%;
@@ -235,7 +243,7 @@ main .video__muestra {
   margin-top: 150px;
   margin-bottom: 15px;
 }
-main .container {
+body main .container {
   display: block;
   width: 100%;
   background-color: beige;
@@ -243,7 +251,7 @@ main .container {
   padding-bottom: px;
   padding-top: 5px;
 }
-main .container h3 {
+body main .container h3 {
   font-size: 30px;
   text-align: left;
   text-decoration: underline;
@@ -251,7 +259,7 @@ main .container h3 {
   color: #0a0a0a;
   margin: 40px 10px 30px 50px;
 }
-main .container button.boton-Youtube {
+body main .container button.boton-Youtube {
   background-image: url("../IMG/youtube_PNG102354-removebg-preview.png");
   text-decoration: none;
   background-color: transparent;
@@ -265,17 +273,17 @@ main .container button.boton-Youtube {
   margin-left: 50%;
   margin-bottom: 15%;
 }
-main .container button.boton-Youtube:hover {
+body main .container button.boton-Youtube:hover {
   background-color: rgba(173, 119, 119, 0.723);
   border-radius: 13px;
 }
-main article {
+body main article {
   max-width: 90%;
   overflow-x: hidden;
   justify-content: center;
   text-align: center;
 }
-main article h4 {
+body main article h4 {
   font-size: 45px;
   text-align: center;
   display: block;
@@ -283,7 +291,7 @@ main article h4 {
   margin-bottom: 50px;
   margin-right: 30px;
 }
-main article img {
+body main article img {
   display: inline-block;
   width: 100%;
   max-width: 80%;
@@ -294,7 +302,7 @@ main article img {
      object-position: center;
   background-size: cover;
 }
-main article iframe {
+body main article iframe {
   display: inline-block;
   max-width: 70%;
   width: 100%;
@@ -311,15 +319,16 @@ main article iframe {
     justify-content: flex-end;
     max-width: 100vh;
     width: 100vh;
-    height: 47px;
+    height: auto;
+    min-height: 30px;
     margin-bottom: 40px;
     margin-left: 10px;
   }
   .navbar a {
-    font-size: 90%;
-    padding: 3px 3px;
+    font-size: 25px;
+    padding: 2px 2px;
     border: 2px solid beige;
-    margin: 3px 3px;
+    margin: 1px 1px;
   }
   .logo {
     margin: 10px 0;
