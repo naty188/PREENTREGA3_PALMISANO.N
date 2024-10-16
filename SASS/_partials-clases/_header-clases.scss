@@ -82,9 +82,11 @@ header {
     a {
       display: block;
       color: $colorsecundario;
-      font-size: 95%;
+      font-size: 100%;
       text-decoration: none;
+      padding: 8px 8px 8px;
       border: 3px solid $colorsecundario;
+      margin: 5px 5px;
       transition: all 0.3s;
       @include animacion2();
 
